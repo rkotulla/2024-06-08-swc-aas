@@ -1,0 +1,263 @@
+ 1002  clear
+ 1003  ls
+ 1004  ks
+ 1005  pwd
+ 1006  ls
+ 1007  ls -F
+ 1008  clear
+ 1009  ls --help
+ 1010  man ls
+ 1011  ls -j
+ 1012  man ls
+ 1013  ls -l -h
+ 1014  ls -lh
+ 1015  ls -F Desktop/
+ 1016  pwd
+ 1017  ls -F Desktop/
+ 1018  ls -F Desktop/shell-lesson-data
+ 1019  ls -F Desktop/shell-lesson-data/exercise-data/
+ 1020  cd Desktop/
+ 1021  cd shell-lesson-data/
+ 1022  cd exercise-data/
+ 1023  pwd
+ 1024  ls -F
+ 1025  cd shell-lesson-data
+ 1026  cd ..
+ 1027  pwd
+ 1028  cd ..
+ 1029  pwd
+ 1030  cd shell-lesson-data/
+ 1031  ls -a -F
+ 1032  cd .
+ 1033  pwd
+ 1034  ls -A -F
+ 1035  ls -AF
+ 1036  ls -FA
+ 1037  pwd
+ 1038  cd ../../
+ 1039  pwd
+ 1040  cd Desktop/shell-lesson-data/exercise-data/
+ 1041  pwd
+ 1042  cd 
+ 1043  pwd
+ 1044  cd -
+ 1045  cd ~
+ 1046  pwd
+ 1047  cd /home/rkotulla/Desktop/shell-lesson-data/exercise-data/
+ 1048  cd ~/Desktop/shell-lesson-data/exercise-data/
+ 1049  pwd
+ 1050  ls
+ 1051  cd writing/
+ 1052  ls -F
+ 1053  mkdir thesis
+ 1054  ls -F
+ 1055  mkdir next paper
+ 1056  ls -F
+ 1057  mkdir -p ../project/data ../project/results
+ 1058  pwd
+ 1059  ls -FR ../project/
+ 1060  man ls
+ 1061  pwd
+ 1062  cd thesis/
+ 1063  ls
+ 1064  nano draft.txt
+ 1065  ls
+ 1066  touch new_file.txt
+ 1067  ls
+ 1068  ls -l
+ 1069  rm new_file.txt
+ 1070  ls
+ 1071  touch new_file.txt
+ 1072  ls
+ 1073  ls -lh
+ 1074  chmod -w new_file.txt 
+ 1075  ls -lh
+ 1076  rm new_file.txt
+ 1077  ls
+ 1078  pwd
+ 1079  cd ..
+ 1080  ls
+ 1081  mv thesis/draft.txt thesis/quotes.txt
+ 1082  ls
+ 1083  ls thesis/
+ 1084  mv thesis/quotes.txt .
+ 1085  ls -F
+ 1086  ls thesis/quotes.txt
+ 1087  ls quotes.txt
+ 1088  cp quotes.txt thesis/quotations.txt
+ 1089  ls
+ 1090  ls thesis/
+ 1091  cp thesis/ thesis_backup
+ 1092  cp -r thesis/ thesis_backup
+ 1093  ls -F
+ 1094  ls thesis/ thesis_backup/
+ 1095  ls
+ 1096  rm quotes.txt
+ 1097  ls
+ 1098  rm thesis_backup/
+ 1099  rmdir thesis_backup/
+ 1100  rm -r thesis_backup/
+ 1101  rm -rf thesis_backup/
+ 1102  rm -r thesis_backup/
+ 1103  rm -rf thesis_backup/
+ 1104* 
+ 1105  rm -r /etc/
+ 1106  ls
+ 1107  pwd
+ 1108  cd ..
+ 1109  ls
+ 1110  cd alkanes/
+ 1111  ls
+ 1112  ls -lh *
+ 1113  ls -lh p*
+ 1114  ls -lh p*.pdb
+ 1115  ls -lh ?p*
+ 1116  ls -lh *th*
+ 1117  ls -lh ??th*
+ 1118  ls -lh *[io]*
+ 1119  touch mithol.pdb
+ 1120  ls -lh *[io]*
+ 1121  ls -lh *[f-h]*
+ 1122  ls
+ 1123  pwd
+ 1124  clear
+ 1125  pwd
+ 1126  ls
+ 1127  rm mithol.pdb
+ 1128  ls
+ 1129  wc cubane.pdb 
+ 1130  wc *.pdb
+ 1131  wc -l *.pdb
+ 1132  wc -l 
+ 1133  wc -l *.pdb > lengths.txt
+ 1134  ls
+ 1135  cat lengths.txt 
+ 1136  man wc
+ 1137  more lengths.txt 
+ 1138  less lengths.txt 
+ 1139  ls -lh
+ 1140  less octane.pdb 
+ 1141  cat octane.pdb 
+ 1142  more octane.pdb 
+ 1143  less octane.pdb 
+ 1144  cat lengths.txt 
+ 1145  sort lengths.txt 
+ 1146  sort -n lengths.txt 
+ 1147* sort -n lengths.txt > lenghts.txt
+ 1148  cat sorted_lenghts.txt 
+ 1149  head -n 1 sorted_lenghts.txt 
+ 1150  head -n 3 sorted_lenghts.txt 
+ 1151  cp methane.pdb test.pdb
+ 1152  cat test.pdb 
+ 1153  cat test.pdb > test.pdb 
+ 1154  cat test.pdb 
+ 1155  echo "the echo command prints stuff" > log.txt
+ 1156  echo "the echo command prints stuff" 
+ 1157  echo "the echo command prints stuff" > log.txt
+ 1158  cat log.txt 
+ 1159  echo "the echo command prints more stuff" >> log.txt
+ 1160  cat log.txt 
+ 1161  sort -n lengths.txt 
+ 1162  sort -n lengths.txt | head -n 1
+ 1163  wc -l *.pdb | sort -n | head -n 1
+ 1164  rm test.pdb
+ 1165  wc -l *.pdb | sort -n | head -n 1
+ 1166  wc -l *.pdb | sort -n | head -n 1 > shortest_length.txt
+ 1167  wc -l *.pdb | sort -n | head -n 3
+ 1168  wc -l *.pdb | sort -n | head -n 3 | tail -n 1
+ 1169  cat ethane.pdb 
+ 1170  awk '{print $5;}' ethane.pdb 
+ 1171  awk '{print $5+$7;}' ethane.pdb 
+ 1172  awk '{print $0, $5+$7;}' ethane.pdb 
+ 1173  pwd
+ 1174  cd ..
+ 1175  ls
+ 1176  cd creatures/
+ 1177  ls
+ 1178  head -n 5 basilisk.dat minotaur.dat unicorn.dat 
+ 1179  for filename in basilisk.dat minotaur.dat unicorn.dat ; do   echo $filename ;   head -n 2 $filename | tail -n 1; done 
+ 1180  for jack in basilisk.dat minotaur.dat unicorn.dat ; do   echo $jack ;   head -n 2 $jack | tail -n 1; done 
+ 1181  ppwd
+ 1182  pwd
+ 1183  for filename in basilisk.dat minotaur.dat unicorn.dat ; do   echo $filename ;   head -n 2 $filename | tail -n 1 >> results.log ; done 
+ 1184  cat results.log 
+ 1185* for filename in basilisk.dat minotaur.dat unicorn.dat "complex beast.txt" ; do   echo $filename ;   head -n 2 $filename | tail -n 1 >> results.log ; done 
+ 1186  cat results.log 
+ 1187  touch "complex beast.txt"
+ 1188  ls
+ 1189  rm complex\ beast.txt
+ 1190  ls
+ 1191  cp *.dat backup_*.dat
+ 1192  for filename in basilisk.dat minotaur.dat unicorn.dat ; do cp $filename backup_$filename  ; done 
+ 1193  ls
+ 1194  ls 
+ 1195  for filename in *.dat ; do cp $filename backup_$filename  ; done 
+ 1196  ls
+ 1197  rm backup_*
+ 1198  ls
+ 1199  ls *.dat > filelist.txt
+ 1200  ls
+ 1201  cat filelist.txt 
+ 1202  for filename in `cat filelist.txt` ; do cp $filename backup_$filename  ; done 
+ 1203  ls
+ 1204  rm backup_
+ 1205  rm backup_*
+ 1206  for filename in $(cat filelist.txt) ; do cp $filename backup_$filename  ; done 
+ 1207  ls
+ 1208  pwd
+ 1209  cd ..
+ 1210  ls
+ 1211  pwd
+ 1212  cd ..
+ 1213  ls
+ 1214  cd north-pacific-gyre/
+ 1215  ls
+ 1216  pwd
+ 1217  for datafile in *.txt ; do echo $datafile; done
+ 1218  for datafile in *.txt ; do echo $datafile stats-$datafile; done
+ 1219  ls
+ 1220  bash goostats.sh NENE01729A.txt stats.test
+ 1221  less stats.test 
+ 1222  ls
+ 1223* for datafile in NENE*.txt ; do echo $datafile; bash goostats.sh $datafile stats-$datafile; done
+ 1224  ls
+ 1225  history
+ 1226  pwd
+ 1227  cd ..
+ 1228  cd exercise-data/alkanes/
+ 1229  ls
+ 1230  nano middle.sh
+ 1231  cat middle.sh 
+ 1232  bash middle.sh 
+ 1233  nano middle.sh
+ 1234  cat middle.sh 
+ 1235  bash middle.sh octane.pdb 
+ 1236  nano middle.sh
+ 1237  cat middle.sh 
+ 1238  bash middle.sh octane.pdb 
+ 1239  bash middle.sh methane.pdb 
+ 1240  bash middle.sh ethane.pdb 
+ 1241  bash middle.sh cubane.pdb 
+ 1242  nano middle.sh
+ 1243  cat middle.sh 
+ 1244  bash middle.sh cubane.pdb 12 4
+ 1245  bash middle.sh cubane.pdb 12
+ 1246  bash middle.sh cubane.pdb 
+ 1247  bash middle.sh cubane.pdb 16 5
+ 1248  bash middle.sh cubane.pdb 8 5
+ 1249  pwd
+ 1250  cd ../
+ 1251  ls
+ 1252  cd writing/
+ 1253  ls
+ 1254  cat haiku.txt 
+ 1255  grep Tao haiku.txt 
+ 1256  grep The haiku.txt 
+ 1257  grep -w The haiku.txt 
+ 1258  grep -n "it" haiku.txt 
+ 1259  grep -w -n "it" haiku.txt 
+ 1260  grep -v -w -n "it" haiku.txt 
+ 1261  grep --help
+ 1262  grep -R 'it'
+ 1263  ls
+ 1264  history > history.txt

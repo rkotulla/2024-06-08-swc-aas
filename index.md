@@ -444,3 +444,7 @@ Please check the "Setup" page of
 [the lesson site]({{ site.incubator_lesson_site }}) for instructions to follow
 to obtain the software and data you will need to follow the lesson.
 {% endif %}
+
+<h2>Other files</h2>
+<p>History of all commands used during shell lesson: <a
+href="history.txt">history.txt</a></p>
