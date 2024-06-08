@@ -384,7 +384,8 @@ The lesson taught in this workshop is being piloted and a precise schedule is ye
 <h2>Other files</h2>
 <p>History of all commands used during shell lesson: <a
 href="history.txt">history.txt</a></p>
-
+<p><a href="https://github.com/RehanSaeed/Bash-Cheat-Sheet">List of common
+linux shell commands</a></p>
 
 {% comment %}
 SETUP
